@@ -32,7 +32,7 @@ export class CoreApi {
    * @param  {Object} parameter - object of Core API JSON body as parameter, will be converted to JSON (more params detail refer to: https://api-docs.midtrans.com)
    * @return {Promise} - Promise contains Object from JSON decoded response
    */
-  charge(parameter: object = {}): Promise<object> {
+  charge(parameter: object = {}): Promise<object|any> {
     let apiUrl = this.apiConfig.getCoreApiBaseUrl() + "/v2/charge";
     let responsePromise = this.httpClient.request(
       "post",

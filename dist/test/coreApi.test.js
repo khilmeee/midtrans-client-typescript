@@ -559,7 +559,7 @@ function generateParamMax() {
             finish: "https://demo.midtrans.com",
         },
         expiry: {
-            start_time: getFormattedTime(1000 * 60 * 60 * 24),
+            start_time: getFormattedTime(1000 * 60 * 60 * 24), // current time +24hrs
             unit: "minutes",
             duration: 1,
         },
