@@ -13,7 +13,7 @@ export declare class CoreApi {
     clientKey?: string;
   });
 
-  charge(parameter?: object): Promise<object>;
+  charge(parameter?: object): Promise<object|any>;
   capture(parameter?: object): Promise<object>;
   cardRegister(parameter?: object): Promise<object>;
   cardToken(parameter?: object): Promise<object>;
