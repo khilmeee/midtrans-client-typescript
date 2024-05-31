@@ -5,7 +5,7 @@ Types are incomplete, because the response of the Midtrans API is too dynamic
 
 ## Installation
 ```
-bun add github:khilmeee/midtrans-client-typescript
+bun add @miwone/midtrans-client-typescript
 ```
 
 Issues and/or PRs are welcome.
